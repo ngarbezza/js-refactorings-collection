@@ -18,6 +18,6 @@
     "eslint-config-ngarbezza": "^0.0.1"
   },
   "dependencies": {
-    "acorn": "^8.11.2"
+    "acorn": "^8.11.3"
   }
 }
