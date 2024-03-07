@@ -1,13 +1,13 @@
 name: Node CI
 
-on: [push, pull_request]
+on: push
 
 jobs:
   build:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [18.x, 19.x]
+        node-version: [18.x, 20.x, 21.x]
     steps:
     - name: Checkout repo
       uses: actions/checkout@v3

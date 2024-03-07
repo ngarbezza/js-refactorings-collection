@@ -1,6 +1,6 @@
-const { suite, test, assert } = require('@pmoo/testy');
+import { assert, suite, test } from '@pmoo/testy';
 
-const RemoveUnnecessaryConditional = require('../lib/remove_unnecessary_conditional');
+import { RemoveUnnecessaryConditional } from '../lib/remove_unnecessary_conditional.js';
 
 function removeUnnecessaryIf(sourceCode) {
   return new RemoveUnnecessaryConditional(sourceCode).apply();
