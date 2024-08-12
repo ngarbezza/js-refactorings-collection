@@ -15,7 +15,7 @@
   "license": "MIT",
   "devDependencies": {
     "@pmoo/testy": "^7.1.0",
-    "eslint": "^8.57.0",
+    "eslint": "^9.9.0",
     "eslint-config-ngarbezza": "^0.0.1"
   },
   "dependencies": {
